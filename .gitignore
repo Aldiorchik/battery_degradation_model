@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models / artifacts
+models/
+*.pkl
+*.joblib
+*.npy
+
+# Data (optional — если raw большой)
+data/raw/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
